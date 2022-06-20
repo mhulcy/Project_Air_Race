@@ -1,5 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+'Aircraft/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostmac/*' filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+C:/Users/MIKE/Desktop/repos/General[[:space:]]Drone/Aircraft/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostmac/** filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.meta filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
@@ -17,7 +20,6 @@
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.ttf filter=lfs diff=lfs merge=lfs -text
 *.TTF filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.shader filter=lfs diff=lfs merge=lfs -text
 *.cginc filter=lfs diff=lfs merge=lfs -text
